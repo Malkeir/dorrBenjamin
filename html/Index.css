@@ -1,0 +1,37 @@
+
+
+
+body
+{
+    background-color:rgba(0,155,0,1);
+}
+#taskBar
+{
+    position: absolute;
+    left:20%;
+    top:-1%;
+    width:content-box;
+    height:102%;
+    background-color:rgba(2,2,2,1);
+
+}
+
+#taskBar h1
+{
+    color:white;
+    font-size:200%;
+}
+
+#body1
+{
+    position: absolute;
+    background-color:rgba(0,60,0,1);
+    top:10%;
+    left:40%;
+    padding: 2%;
+    width: 30%;
+}
+#body1 p
+{
+    color:white;
+}
