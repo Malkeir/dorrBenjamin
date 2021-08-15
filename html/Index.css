@@ -3,7 +3,7 @@
 
 body
 {
-    background-color:rgba(0,155,0,1);
+    background-color:rgba(0,105,105,1);
 }
 #taskBar
 {
@@ -25,13 +25,97 @@ body
 #body1
 {
     position: absolute;
-    background-color:rgba(0,60,0,1);
+    background-color:rgba(000,250,200,1);
     top:10%;
     left:40%;
     padding: 2%;
     width: 30%;
+    height:58%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+#body2
+{
+    position: absolute;
+    background-color:rgba(0,20,0,1);
+    top:11%;
+    left:41%;
+    padding: 2%;
+    width: 30%;
+    z-index: -2;
+    height:60%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 #body1 p
 {
     color:white;
 }
+
+
+#taskButton5
+{
+    position: absolute;
+    bottom: 2%;
+}
+/**----------------------------------------
+-
+-
+-
+-
+-
+-
+-
+-----------------------------------------**/
+::-webkit-scrollbar
+{
+    display:none;
+}
+#taskButton1 a:hover
+{
+    color:white;
+    font-size:200% ;
+    background-color: rgba(100,100,200,1);
+    transition-duration: 2s;
+}
+#taskButton1Active
+{
+    background-color: rgba(100,100,200,1);
+}
+#taskButton2 a:hover
+{
+    color:white;
+    font-size:200% ;
+    background-color: rgba(150,100,200,1);
+    transition-duration: 2s;
+}
+#taskButton2Active
+{
+    background-color: rgba(150,100,200,1);
+}
+#taskButton3 a:hover
+{
+    color:white;
+    font-size:200% ;
+    background-color: rgba(50,50,200,1);
+    transition-duration: 2s;
+}
+#taskButton3Active
+{
+    background-color: rgba(50,50,200,1);
+}
+#taskButton4 a:hover
+{
+    color:white;
+    font-size:200% ;
+    background-color: rgba(20,20,100,1);
+    transition-duration: 2s;
+}
+#taskButton4Active
+{
+    background-color: rgba(20,20,100,1);
+}
+
+
