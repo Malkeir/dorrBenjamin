@@ -13,7 +13,7 @@ body
     width:content-box;
     height:102%;
     background-color:rgba(2,2,2,1);
-
+    max-width: 20%;
 }
 
 #taskBar h1
@@ -72,6 +72,10 @@ body
 ::-webkit-scrollbar
 {
     display:none;
+}
+#taskButton1 h1 a:active
+{
+    color:white;
 }
 #taskButton1 a:hover
 {
