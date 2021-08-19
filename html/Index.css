@@ -1,9 +1,13 @@
 
 
+/*The following section is used to mantain the body and the content section
+ of the body as well. deals with the underImage and works
 
+*/
 body
 {
-    background-color:rgba(0,105,105,1);
+    background-color:rgba(0,200,250,1);
+    overflow:hidden;
 }
 #taskBar
 {
@@ -25,7 +29,7 @@ body
 #body1
 {
     position: absolute;
-    background-color:rgba(000,250,200,1);
+    background-color:rgba(250,0,250,1);
     top:10%;
     left:40%;
     padding: 2%;
@@ -34,6 +38,8 @@ body
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
     border-top-right-radius: 5%;
+    overflow:scroll;
+    overflow-x:hidden;
 }
 #body2
 {
@@ -53,25 +59,26 @@ body
 {
     color:white;
 }
-
+/*------------------------------------------------------------------------
+The following section is used to create the navigation bar for the website
+might make one more link that links to my github of projects that I am
+working on.
+------------------------------------------------------------------------*/
 
 #taskButton5
 {
     position: absolute;
     bottom: 2%;
 }
-/**----------------------------------------
--
--
--
--
--
--
--
------------------------------------------**/
-::-webkit-scrollbar
+a:visited
 {
-    display:none;
+    text-decoration:none;
+    color:white;
+
+}
+a:link
+{
+    text-decoration:none;
 }
 #taskButton1 h1 a:active
 {
@@ -80,46 +87,50 @@ body
 #taskButton1 a:hover
 {
     color:white;
-    font-size:200% ;
+    font-size:150% ;
     background-color: rgba(100,100,200,1);
     transition-duration: 2s;
 }
 #taskButton1Active
 {
     background-color: rgba(100,100,200,1);
+    font-size:150%;
 }
 #taskButton2 a:hover
 {
     color:white;
-    font-size:200% ;
+    font-size:150% ;
     background-color: rgba(150,100,200,1);
     transition-duration: 2s;
 }
 #taskButton2Active
 {
     background-color: rgba(150,100,200,1);
+    font-size:150%;
 }
 #taskButton3 a:hover
 {
     color:white;
-    font-size:200% ;
+    font-size:150% ;
     background-color: rgba(50,50,200,1);
     transition-duration: 2s;
 }
 #taskButton3Active
 {
     background-color: rgba(50,50,200,1);
+    font-size:150%;
 }
 #taskButton4 a:hover
 {
     color:white;
-    font-size:200% ;
+    font-size:150% ;
     background-color: rgba(20,20,100,1);
     transition-duration: 2s;
 }
 #taskButton4Active
 {
     background-color: rgba(20,20,100,1);
+    font-size:150%;
 }
 
 
